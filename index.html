@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>iro.js demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="half">
+          <img id="phone" src="iphone.png" alt="Smiley face" height="400" width="400" style="position: fixed;margin:-95px auto auto -128px; display:block;z-index: -1;">
+        <div class="colorPicker"></div>
+      </div>
+      <div id="window" class="half readout">
+<!--         <p>
+          iro.js is an HSV color picker widget for JavaScript with a modern SVG-based user interface -- and no jQuery or extra CSS / images.
+        </p>
+        <span class="title link">Head to <a href="https://iro.js.org?ref=codepen" target="blank">iro.js.org</a> for full documentation and features, or check out the source code on <a href="https://github.com/jaames/iro.js" target="blank">GitHub</a>!
+        </span>
+        <span class="title">Selected Color:</span> -->
+        <div id="values"></div>
+      </div>
+      <img id="tree" src="tree.jpg" alt="Smiley face" height="345" width="362" style="position: fixed;margin-left:179px;margin-top:17px;">
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
